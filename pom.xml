@@ -14,12 +14,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <groupId>minevalley.${module.author}</groupId>
-    <artifactId>${module.name}</artifactId>
-    <version>${module.version}</version>
+    <groupId>minevalley.felix</groupId>
+    <artifactId>deployment.poc</artifactId>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>${module.name}</name>
+    <name>dpc</name>
 
     <repositories>
         <repository>
