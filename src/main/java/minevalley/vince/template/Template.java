@@ -32,7 +32,6 @@ public final class Template extends CoreModule {
     public void onEnable() {
         // Module startup logic
 
-        new ExampleCommand(); // Commands are registered by creating a new instance of the commands class
 
         Core.registerListener(new UserRefreshListener()); // Listener-registrations
         LoggingListeners.initListeners();
