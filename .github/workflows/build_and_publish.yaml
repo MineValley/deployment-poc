@@ -18,6 +18,14 @@ jobs:
           java-version: "8"
           distribution: "temurin"
 
+      - name: "Maven cache"
+        uses: "actions/cache@v3"
+        with:
+          path: "~/.m2/repository"
+          key: "${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}"
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
       - name: "Maven build"
         run: |
-          mvn -B package --file pom.xml
+          mvn -B package --file pom.xml -X
