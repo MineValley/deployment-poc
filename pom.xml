@@ -60,6 +60,11 @@
             <version>${api.version}</version>
         </dependency>
         <dependency>
+            <groupId>com.github.MineValley</groupId>
+            <artifactId>SmartAPI</artifactId>
+            <version>1.61.2</version>
+        </dependency>
+        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>LATEST</version>
