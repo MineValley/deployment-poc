@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <module.name>template</module.name>
-        <module.author>vince</module.author>
+        <module.name>aaa</module.name>
+        <module.author>ooo</module.author>
         <module.version>1.0</module.version>
 
         <api.version>1.280.0</api.version>
